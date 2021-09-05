@@ -9,7 +9,7 @@ public class lab{
 		int index=0;
 		Random rand=new Random();
 		while(index!=200){
-			set.add(rand.ints(1, 1001).findAny().getAsInt());
+			set.add(rand.nextInt(1000)+1);
 			index++;
 		}
 		print_set(set);
